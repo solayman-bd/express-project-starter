@@ -24,3 +24,7 @@ Project setup step by step:
 20. npm install --save-dev eslint-config-prettier-> remove the confliction between eslint and prettier
 21. npm i ts-node-dev --save-dev
 22. add script: "start:dev": "ts-node-dev --respawn --transpile-only src/server.ts",
+23. .env:
+    NODE_ENV=development
+    PORT=
+    DATABASE_URL=
