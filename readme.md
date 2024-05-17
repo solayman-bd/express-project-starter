@@ -22,3 +22,5 @@ Project setup step by step:
 18. npm install --save-dev prettier
 19. Make .prettierrc.json file and write rules
 20. npm install --save-dev eslint-config-prettier-> remove the confliction between eslint and prettier
+21. npm i ts-node-dev --save-dev
+22. add script: "start:dev": "ts-node-dev --respawn --transpile-only src/server.ts",
